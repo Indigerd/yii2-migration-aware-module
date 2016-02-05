@@ -1,0 +1,21 @@
+{
+  "name": "indigerd/yii2-migration-aware-module",
+  "description": "Migration aware module extension for Yii2.",
+  "keywords": ["yii", "extension", "component", "migration", "module"],
+  "type": "yii2-extension",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Alexander Stepanenko",
+      "email": "alex.stepanenko@gmail.com"
+    }
+  ],
+  "require": {
+    "yiisoft/yii2": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "indigerd\\migrationaware\\": ""
+    }
+  }
+}
