@@ -49,5 +49,7 @@ For example:
 ```
 
 
+##License
 
+yii2-migration-aware-module is released under the MIT License. See the bundled LICENSE file for details.
 
