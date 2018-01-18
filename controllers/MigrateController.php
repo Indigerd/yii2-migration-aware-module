@@ -87,7 +87,11 @@ class MigrateController extends \yii\console\controllers\MigrateController
         $file = $this->getMigrationFiles()[$class];
         require_once($file);
 
-        return new $class(['db' => $this->db]);
+        return Yii::createObject([
+            'class' => $class,
+            'db' => $this->db,
+            'compact' => $this->compact,
+        ]);
     }
 
     protected function getNewMigrations()
